@@ -1,2 +1,3 @@
 # git_test
-odinproject learning
+My odin repo
+Hello odin
