@@ -1,0 +1,88 @@
+/* .flexContainer{
+    display: flex;
+    height: 250px;
+    width: 400px;
+}
+
+.flexContainer div{
+    background: yellowgreen;
+    border: 2px solid red;
+
+}                   1/ little bit understood but still failed .. 
+
+                    // Found my mistake i wasnt using space to separate the classes 
+                    i wasnt able to too the results.
+
+.flexContainer .two{
+    flex-shrink: 1;
+    height: 50px;
+    width: 60px;
+}
+
+.flexContainer.one{
+
+    height: 125px;
+    width: 250px;
+}
+
+
+.flexContainer.three{
+    height: 30px;
+    width: 80px;
+} */
+
+
+.flexContainer{
+    display: flex;
+    flex-direction: column;
+    min-height: 50svh;
+    /* width: 500px; */
+    background: yellowgreen;
+    border: 2px solid red;
+    /* padding: 100px; */
+    justify-content:center;
+    align-items: center;
+    
+}
+/* 
+.flexContainer div{
+    background: yellowgreen;
+    border: 2px solid red;              kinda under stood the matter a little bit
+
+}       */
+
+
+.one, .two, .three, .four {
+    border: 1px solid black;
+    /* flex: 1; */
+    /* justify-content:space-between; */
+
+
+/*al ways use min-height: 50svh*/
+    
+}
+
+.flexContainer .one{
+
+    /* height: 125px;
+    width: 250px; */
+}
+
+
+.flexContainer .two{
+    /* flex-shrink: 1; */
+    /* height: 50px;
+    width: 60px; */
+    /* justify-content: center; */
+}
+
+
+.flexContainer .three{
+    /* height: 30px;
+    width: 80px; */
+}
+
+.flexContainer .four{
+    /* height: 10px;
+    width: 40px; */
+}
